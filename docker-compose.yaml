@@ -25,6 +25,7 @@ services:
       - 9200:9200
     networks:
       - app-network
+      - rabbitmq_micro-catalog
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.5.1
@@ -39,3 +40,5 @@ services:
 networks:
   app-network:
     driver: bridge
+  rabbitmq_micro-catalog:
+    external: true

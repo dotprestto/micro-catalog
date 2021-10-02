@@ -25,6 +25,11 @@ In case of error, try giving permission to elasticdata folder
 sudo chmod 777 -R .docker/elasticdata
 ```
 
+## RabbitMQ
+
+RabbitMQ's container was created in another docker-composer file
+for the sake of learning `external networks`
+
 ## What's next
 
 Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
