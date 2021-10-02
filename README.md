@@ -25,6 +25,14 @@ In case of error, try giving permission to elasticdata folder
 sudo chmod 777 -R .docker/elasticdata
 ```
 
+## Loopback
+
+If changes are not being applied, run
+
+```
+sudo chmod 777 -R dist
+```
+
 ## RabbitMQ
 
 RabbitMQ's container was created in another docker-composer file
