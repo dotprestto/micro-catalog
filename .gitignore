@@ -67,3 +67,5 @@ typings/
 # Elastic Search volume
 .docker/elasticdata
 
+# RabbitMQ volume
+rabbitmqdata
